@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Ödeme Başarısız</title>
+</head>
+<body>
+    <h1>Ödeme Başarısız</h1>
+    <p>{{ error }}</p>  <!-- Hata mesajını burada gösteriyoruz -->
+    <p>Lütfen tekrar deneyin.</p>
+    <a href="{% url 'payment_create' %}">Ödeme Sayfasına Geri Dön</a>
+</body>
+</html>
